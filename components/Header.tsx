@@ -3,20 +3,23 @@ import React, { useState } from 'react'
 import logo from "../Images/Logo.png"
 import { Transition } from "@headlessui/react";
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const router = useRouter();
   return (
-    <div className="shadow-lg shadow-cyan-500/50 header-slid">
-        <div className="flex background px-4 py-2 ">
+  
+    <div className="z-50 absolute w-full shadow-lg shadow-cyan-500/50 header-slid">
+        <div className="flex background px-4 py-2">
           <div className="text-white relative h-16 w-full items-center justify-center md:w-20">
             <Image objectFit='contain' src={logo} layout="fill" />
           </div>
           <div className='hidden justify-center text-white items-center w-full md:inline-flex'>
-            <a className="mx-4 p-2 lg:mx-8 animation" href="">Home</a>
-            <a className="mx-4 p-2 lg:mx-8 animation" href="">About</a>
-            <a className="mx-4 p-2 lg:mx-8 animation" href="">Projects</a>
-            <a className="mx-4 p-2 lg:mx-8 animation" href="">Contact</a>
+            <button onClick={() => router.push('/')} className="mx-4 p-2 lg:mx-8 animation" href="">Home</button>
+            <button onClick={() => router.push('/about')} className="mx-4 p-2 lg:mx-8 animation" href="">About</button>
+            <button onClick={() => router.push('/projects')} className="mx-4 p-2 lg:mx-8 animation" href="">Projects</button>
+            <button onClick={() => router.push('/contact')} className="mx-4 p-2 lg:mx-8 animation" href="">Contact</button>
             
           </div>
           <div className="mr-10 flex md:hidden ">
@@ -82,7 +85,7 @@ function Header() {
               )}
             </Transition>
           </div>
-    
+        
         
   )
 }
