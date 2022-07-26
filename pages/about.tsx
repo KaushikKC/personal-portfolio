@@ -13,6 +13,9 @@ function about() {
         loop
         muted
         ></video>
+        <div className='absolute background h-full w-3/5 md:w-4/6 lg:w-4/5 top-32 left-32 md:left-40 lg:left-48 text-white shadow-xl shadow-cyan-500/90'>
+            
+        </div>
     </div>
   )
 }

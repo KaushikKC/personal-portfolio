@@ -36,8 +36,7 @@
         animation: reveal 1s ease 1.7s forwards ;
     }
     .main-text {
-        font-size: 80px;
-        font-weight: 700;
+
         color: transparent;
         -webkit-text-stroke: 1px rgba(139, 203, 250, 0.8);
         
@@ -77,11 +76,7 @@
         }
     }
     
-    .animation:hover{
-        color: rgb(94 234 212);
-        transform: translateY(-10px);
-        opacity: 0.7;
-    }
+
     
         
     
