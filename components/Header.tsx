@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React, { useState } from 'react'
-import logo from "../Images/Logo.png"
+import logo from "../Images/Logo1.png"
 import { Transition } from "@headlessui/react";
 import Link from 'next/link';
 import { useRouter } from 'next/router';
@@ -10,7 +10,7 @@ function Header() {
   const router = useRouter();
   return (
   
-    <div className={`transition duration-500 z-40 absolute w-full ${!isOpen && "shadow-lg shadow-cyan-500/30" } header-slid`}>
+    <div className={`fixed backdrop-blur transition duration-500 z-40 w-full ${!isOpen && "shadow-lg shadow-cyan-500/30" } header-slid`}>
         <div className="flex background px-4 py-2">
           <div className="text-white cursor-pointer relative h-16 w-full items-center justify-center md:w-20">
             <Image objectFit='contain' src={logo} layout="fill" />

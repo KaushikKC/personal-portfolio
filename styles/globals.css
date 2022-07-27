@@ -3,16 +3,70 @@
 @tailwind utilities;
 
 * {
-    font-family: "Roboto Condensed",sans-serif;
+    /* font-family: "Roboto Condensed",sans-serif; */
     margin: 0;
     padding: 0;
-    overflow-y: hidden;
+    font-family: Gotham Rounded,sans-serif;
+    scroll-behavior: smooth;
 }
+
+.marquee {
+    width: 80vw;
+    height: 20vw;
+    background-color: transparent;
+    color: #eee;
+    overflow: hidden;
+    position: relative;
+  }
+.marquee:before, .marquee:after {
+    position: absolute;
+    top: 0;
+    width: 10rem;
+    height: 100%;
+    content: "";
+    z-index: 1;
+}
+.marquee:before {
+    left: 0;
+    background: linear-gradient(to right, #111 0%, transparent 100%);
+}
+.marquee:after {
+    right: 0;
+    background: linear-gradient(to left, #111 0%, transparent 100%);
+}
+.marquee-content {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    animation: scrolling 10s linear infinite;
+}
+@keyframes scrolling {
+    0% { transform: translateX(80vw); }
+    100% { transform: translateX(-180vw); }
+  }
+  .marquee-content li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    flex-shrink: 0;
+    width: 20vw;
+    max-height: 100%;
+    font-size: 5rem; /* 5rem; */
+    white-space: nowrap;
+  }
+  
+  .marquee-content li img {
+    width: 100%;
+    /* height: 100%; */
+    border: 2px solid #eee;
+  }
+  
 
 @layer components {
     .background{
-        background: hsla(0,0%,42.7%,.12);
-        backdrop-filter: blur(5px);
+        background: hsla(0,0%,26.7%,.10);
+        backdrop-filter: blur(25px);
         font-size: 18px;
     }
     .background-side{
@@ -57,6 +111,34 @@
         transform: translateX(-50%);
         opacity: 0;
         animation: reveal 1s ease 1.2s forwards ;
+    }
+
+    .body-wrapper{
+        margin-top: 90px;
+        padding: 20px;
+        width: 80%;
+        border-radius: 10px;
+        background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
+        box-shadow: 0 0 5px 1px #000;
+    }
+
+    .line {
+        content: "";
+        width: 90px;
+        height: 2px;
+        display: inline-block;
+        background: #4ceb95;
+        margin: 0 10px;
+    }
+
+    .box_shadow {
+        position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -1rem;
+    left: -1rem;
+    opacity: 0.5;
+    background: url(../Images/Untitled-2.png);
     }
 
     @keyframes back {
