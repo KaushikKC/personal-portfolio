@@ -42,7 +42,7 @@ function about() {
           <Skills />
           {/* technoligies */}
           <Marquee>
-            <div className="maarquee-content">
+            <div className="marquee-content">
               <li className="text-white"><FaReact/></li>
               <li className="text-white"><FaHtml5/></li>
               <li className="text-white"><FaCss3Alt/></li>

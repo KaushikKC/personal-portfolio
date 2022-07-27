@@ -46,13 +46,13 @@ function Skills() {
                 <div className='w-[60%] px-4 mb-5' >
                 <Image src={meter3} />
                 </div>
-                <p>Front-end Development</p>
+                <p>FrontEnd Development</p>
             </div>
             <div className='text-white font-semibold'>
                 <div className='w-[60%] px-4 mb-5' >
                 <Image src={meter2} />
                 </div>
-                <p>Back-end Development</p>
+                <p>BackEnd Development</p>
             </div>
             <div className='text-white font-semibold'>
                 <div className='w-[60%] px-4 mb-5' >
