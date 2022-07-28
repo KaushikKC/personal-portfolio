@@ -3,7 +3,7 @@ import React from 'react'
 import Header from '../components/Header'
 import SideBar from '../components/SideBar'
 import Skills from '../components/Skills'
-import Profile from "../Images/profile.jpg"
+import Profile from "../Images/Profile.jpg"
 import {FaReact, FaHtml5, FaCss3Alt,FaNode, FaBootstrap} from "react-icons/fa"
 import {DiJavascript1} from "react-icons/di"
 import {SiExpress, SiNextdotjs, SiTailwindcss, SiMysql, SiMongodb, SiSolidity,SiWeb3Dotjs} from "react-icons/si"
@@ -21,7 +21,7 @@ function about() {
         muted
         ></video>
         <div className="flex items-center justify-center fade-in">
-        <div className='pb-5 overflow-y-auto left-20 md:left-36 body-wrapper'>
+        <div className='pb-5 overflow-y-auto body-wrapper'>
           <div className="mb-20">
             <div className="flex items-center mb-5">
               <div className='md:line'></div>

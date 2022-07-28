@@ -1,15 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Roboto+Condensed&display=swap');
 
-* {
-    /* font-family: "Roboto Condensed",sans-serif; */
-    margin: 0;
-    padding: 0;
-    font-family: Gotham Rounded,sans-serif;
-    scroll-behavior: smooth;
+
+
+
+@layer base {
+    .active {
+        @apply text-yellow-300;
+      }
+
+      * {
+        font-family: "Roboto Condensed",sans-serif;
+        margin: 0;
+        padding: 0;
+        /* font-family: 'Mochiy Pop One', sans-serif; */
+        scroll-behavior: smooth;
+    }
+    h1,h2,h3,p {
+        font-family: "Roboto Condensed",sans-serif;
+    }
 }
-
 
 
 @layer components {

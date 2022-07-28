@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fontsource/mochiy-pop-one": "^4.5.7",
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
     "@fortawesome/free-regular-svg-icons": "^6.1.2",
     "@fortawesome/free-solid-svg-icons": "^6.1.2",
