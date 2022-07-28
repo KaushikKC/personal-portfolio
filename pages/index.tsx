@@ -29,7 +29,7 @@ const Home: NextPage = () => {
         muted
         ></video>
         <div className="">
-          <div className='absolute pl-28 md:pl-52 flex flex-col text-white top-60 text-ani'>
+          <div className='absolute pl-16 md:pl-52 flex flex-col text-white top-60 text-ani'>
             <p className="font-bold text-lg md:text-xl small-text tracking-wide">Hello I'm</p>
             <p className=" main-text text-5xl md:text-7xl font-bold">Kaushik</p>
             <span className='flex font-bold text-lg md:text-xl'>

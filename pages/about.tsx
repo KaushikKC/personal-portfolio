@@ -1,14 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-import styled from "styled-components"
 import Header from '../components/Header'
 import SideBar from '../components/SideBar'
 import Skills from '../components/Skills'
 import Profile from "../Images/profile.jpg"
-import Background from "../Images/Untitled-1.png"
 import {FaReact, FaHtml5, FaCss3Alt,FaNode, FaBootstrap} from "react-icons/fa"
 import {DiJavascript1} from "react-icons/di"
 import {SiExpress, SiNextdotjs, SiTailwindcss, SiMysql, SiMongodb, SiSolidity,SiWeb3Dotjs} from "react-icons/si"
+import Marquee from 'react-fast-marquee'
 
 function about() {
   return (
@@ -21,7 +20,8 @@ function about() {
         loop
         muted
         ></video>
-        <div className=' absolute overflow-y-auto left-24 md:left-36 body-wrapper'>
+        <div className="flex items-center justify-center fade-in">
+        <div className='pb-5 overflow-y-auto left-20 md:left-36 body-wrapper'>
           <div className="mb-20">
             <div className="flex items-center mb-5">
               <div className='md:line'></div>
@@ -34,31 +34,41 @@ function about() {
               </div>
               
               <div className="h-full w-full md:w-[65%]">
-                  <h1 className="font-bold text-green-400 text-3xl">Web Developer</h1>
+                  <h1 className="font-bold text-yellow-300 text-3xl mb-3">Web Developer</h1>
                   <p className="leading-loose text-white text-lg font">A random paragraph can also be an excellent way for a writer to tackle writers' block. Writing block can often happen due to being stuck with a current project that the writer is trying to complete. By inserting a completely random paragraph from which to begin, it can take down some of the issues that may have been causing the writers' block in the first place.</p>
               </div>
             </div>
           </div>
           <Skills />
           {/* technoligies */}
-          <Marquee>
-            <div className="marquee-content">
-              <li className="text-white"><FaReact/></li>
-              <li className="text-white"><FaHtml5/></li>
-              <li className="text-white"><FaCss3Alt/></li>
-              <li className="text-white"><DiJavascript1/></li>
-              <li className="text-white"><FaNode/></li>
-              <li className="text-white"><SiExpress/></li>
-              <li className="text-white"><SiNextdotjs/></li>
-              <li className="text-white"><SiTailwindcss/></li>
-              <li className="text-white"><FaBootstrap/></li>
-              <li className="text-white"><SiMysql/></li>
-              <li className="text-white"><SiMongodb/></li>
-              <li className="text-white"><SiSolidity/></li>
-              <li className="text-white"><SiWeb3Dotjs/></li>
+          <div>
+            <div className="flex items-center mb-14">
+              <div className='md:line'></div>
+              <h1 className="font-bold text-white px-2 cursor-pointer text-3xl hover:underline-offset-4">Technologies</h1>
+              <div className='line'></div>
             </div>
+            <Marquee className="h-40 text-6xl md:text-8xl overflow-hidden mt-3" speed={100} gradientColor={[0,0,0]} gradientWidth={100}>
+            
+              <div className="text-yellow-300 px-14 w-full h-full"><FaReact/></div>
+              <div className="text-yellow-300 px-14 w-full h-full"><FaHtml5/></div>
+              <div className="text-yellow-300 px-14 w-full h-full"><FaCss3Alt/></div>
+              <div className="text-yellow-300 px-14 w-full h-full"><DiJavascript1/></div>
+              <div className="text-yellow-300 px-14 w-full h-full"><FaNode/></div>
+              <div className="text-yellow-300 px-14 w-full h-full"><SiExpress/></div>
+              <div className="text-yellow-300 px-14 w-full h-full"><SiNextdotjs/></div>
+              <div className="text-yellow-300 px-14 w-full h-full"><SiTailwindcss/></div>
+              <div className="text-yellow-300 px-14 w-full h-full"><FaBootstrap/></div>
+              <div className="text-yellow-300 px-14 w-full h-full"><SiMysql/></div>
+              <div className="text-yellow-300 px-14 w-full h-full"><SiMongodb/></div>
+              <div className="text-yellow-300 px-14 w-full h-full"><SiSolidity/></div>
+              <div className="text-yellow-300 px-14 w-full h-full"><SiWeb3Dotjs/></div>
+              
+          
           </Marquee>
+          </div>
+          
                 
+        </div>
         </div>
     </div>
   )
@@ -66,31 +76,4 @@ function about() {
 
 export default about
 
-const Marquee = styled.div`
-  width: 80vw;
-  height: 20vw;
-  background-color: transparent;
-  color: #eee;
-  overflow: hidden;
-  position: relative;
 
-  &::before, &::after {
-    position: absolute;
-    top: 0;
-    width: 10rem;
-    height: 100%;
-    content: "";
-    z-index: 1
-  }
-
-  &::before {
-    left: 0;
-    background: linear-gradient(to right, #111 0%, transparent 100%);
-  }
-
-  &::after {
-    right: 0;
-    background: linear-gradient(to left, #111 0%, transparent 100%);
-  }
-
-`
