@@ -92,19 +92,61 @@
         background: #f7d53b;
         margin: 0 10px;
     }
+    .line-vertical {
+        content: "";
+        width: 3px;
+        height: 400px;
+        display: inline-block;
+        background: gray;
+    }
 
     .box_shadow {
         position: absolute;
-    width: 100%;
-    height: 100%;
-    top: -1rem;
-    left: -1rem;
-    opacity: 0.5;
-    background: url(../Images/Untitled-2.png);
+        width: 100%;
+        height: 100%;
+        top: -1rem;
+        left: -1rem;
+        opacity: 0.5;
+        background: url(../Images/Untitled-2.png);
     }
 
     .fade-in {
         animation: fadeIn 5s;
+    }
+
+    .inputBox input,
+    .inputBox textarea {
+        width:100%;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 20px 0;
+        border: none;
+        border-bottom: 2px solid yellow;
+        outline: none;
+        background: transparent;
+        resize: none;
+        color: white;
+    }
+
+    .inputBox span {
+        position: absolute;
+        font-weight: 600;
+        left: 0;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        color : #fff;
+        pointer-events: none;
+        transition: 0.5s;
+    }
+
+    .inputBox input:focus ~ span,
+    .inputBox input:valid ~ span
+    .inputBox textarea:focus ~ span,
+    .inputBox textarea:valid ~ span {
+        color: yellow;
+        font-size: 12px;
+        transform: translateY(-20px)
     }
 
     @keyframes fadeIn {

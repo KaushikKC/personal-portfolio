@@ -38,6 +38,10 @@ const Home: NextPage = () => {
               <p className="ml-3 text-teal-400 tracking-widest ">Web Developer</p>
             </span>
             
+            <div className="mt-5">
+              <button className="text-white hover:bg-yellow-300 hover:text-black font-semibold px-6 md:px-8 inline-block outline-none border-none py-2 md:py-3 bg-[hsla(0,0%,100%,.12)] rounded-lg mr-5" type='submit'>My Works</button>
+              <button className="text-gray-700 hover:bg-[hsla(0,0%,100%,.12)] hover:text-white font-semibold px-6 md:px-8 inline-block outline-none border-none py-2 md:py-3 bg-yellow-400 rounded-lg" type='submit'>Contact Me</button>
+            </div>
 
           </div>
           
