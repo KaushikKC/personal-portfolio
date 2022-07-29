@@ -3,8 +3,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
 import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
+import { useRouter } from 'next/router'
 
 import SideBar from '../components/SideBar'
+
 
 const Home: NextPage = () => {
   const words = ["Full-stack", "Blockchain", "Front-end"];
@@ -13,6 +15,8 @@ const Home: NextPage = () => {
         words,
         loop: 0, // Infinit
     });
+
+  const router = useRouter();
   return (
     <div className="">
       <Head>
@@ -39,8 +43,8 @@ const Home: NextPage = () => {
             </span>
             
             <div className="mt-5">
-              <button className="text-white hover:bg-yellow-300 hover:text-black font-semibold px-6 md:px-8 inline-block outline-none border-none py-2 md:py-3 bg-[hsla(0,0%,100%,.12)] rounded-lg mr-5" type='submit'>My Works</button>
-              <button className="text-gray-700 hover:bg-[hsla(0,0%,100%,.12)] hover:text-white font-semibold px-6 md:px-8 inline-block outline-none border-none py-2 md:py-3 bg-yellow-400 rounded-lg" type='submit'>Contact Me</button>
+              <button onClick={() => router.push('/projects')} className="text-white hover:bg-yellow-300 hover:text-black font-semibold px-6 md:px-8 inline-block outline-none border-none py-2 md:py-3 bg-[hsla(0,0%,100%,.12)] rounded-lg mr-5" type='submit'>My Works</button>
+              <button onClick={() => router.push('/contact')} className="text-gray-900 hover:bg-[hsla(0,0%,100%,.12)] hover:text-white font-semibold px-6 md:px-8 inline-block outline-none border-none py-2 md:py-3 bg-yellow-300 rounded-lg" type='submit'>Contact Me</button>
             </div>
 
           </div>
