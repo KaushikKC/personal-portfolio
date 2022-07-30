@@ -6,20 +6,16 @@ function ProjectIndividual({item}:any) {
 
   return (
     <div key={item.id} className='flex flex-col items-center text-center cont'>
-      <Cont className='mb-8'>
+      <Cont className='mb-8 h-60'>
         <Image 
-        className='rounded-2xl absolute hover:opacity-50' 
+        className='rounded-2xl cursor-pointer h-32 absolute hover:opacity-50' 
         src={item.image} alt='' />
-        <h2>github</h2>
+        <a href={item.URL} className='cursor-pointer'>github</a>
       </Cont>
       <p className='capitalize text-yellow-300 text-sm mb-3 font-semibold'>{item.category}</p>
       <h3 className='text-2xl text-white font-semibold capitalize mb-3'>{item.name}</h3>
 
-      <p className='text-base max-w-md text-white'>
     
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit veniam
-        obcaecati ipsam.
-      </p>
       
     </div>
   )
@@ -45,7 +41,7 @@ const Cont = styled.div`
     transition: all 0.35s ease;
 
 
-    & h2 {
+    & a {
         background-color: #000000;
         border: 2px solid #fff;
         color: #fff;
@@ -89,7 +85,7 @@ const Cont = styled.div`
         vertical-align: top;
     }
 
-    & h2 {
+    & a {
         top: 50%;
         left: 50%;
         position: absolute;
@@ -115,7 +111,7 @@ const Cont = styled.div`
         transform: skew(45deg) translateX(55%);
     }
 
-    &:hover h2 {
+    &:hover a {
         -webkit-transform: translate(-50%, -50%) scale(1);
         transform: translate(-50%, -50%) scale(1);
         opacity: 1;

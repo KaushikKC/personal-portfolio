@@ -19,10 +19,7 @@ const Home: NextPage = () => {
   const router = useRouter();
   return (
     <div className="">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      
         
         <Header />
         <SideBar />

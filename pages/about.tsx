@@ -47,7 +47,7 @@ function about() {
               <h1 className="font-bold text-white px-2 cursor-pointer text-3xl hover:underline-offset-4">Technologies</h1>
               <div className='line'></div>
             </div>
-            <Marquee className="h-40 text-6xl md:text-8xl overflow-hidden mt-3" speed={100} gradientColor={[0,0,0]} gradientWidth={100}>
+            <Marquee className="h-36 text-6xl md:text-8xl overflow-hidden mt-3" speed={100} gradientColor={[0,0,0]} gradientWidth={100}>
             
               <div className="text-yellow-300 px-14 w-full h-full"><FaReact/></div>
               <div className="text-yellow-300 px-14 w-full h-full"><FaHtml5/></div>

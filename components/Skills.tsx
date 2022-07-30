@@ -149,6 +149,6 @@ const Skill = styled.div`
     }
 
     &:hover::before {
-        width: 340px;
+        width: 300px;
     }
 `
