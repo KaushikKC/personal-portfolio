@@ -7,8 +7,8 @@ import Project6 from '../Images/WhatsApp.jpg'
 import Project7 from '../Images/TinDog.jpg'
 import Project8 from '../Images/DisneyPlusHotstar.webp'
 import Project9 from '../Images/Tesla.jpg'
-import Project10 from '../Images/'
-import Project11 from '../Images/'
+import Project10 from '../Images/Amazon.jpg'
+import Project11 from '../Images/CoffeeShop.webp'
 
 
 export const projectsData = [
@@ -78,16 +78,16 @@ export const projectsData = [
     {
       id: '10',
       image: Project10,
-      name: 'Tesla Clone',
+      name: 'Amazon Clone',
       category: 'Cloned Apps',
-      URL:'https://github.com/KaushikKC/tesla-clone',
+      URL:'https://github.com/KaushikKC/Web-Development-templates/tree/main/Amazon%20Clone',
     },
     {
       id: '11',
       image: Project11,
-      name: 'Tesla Clone',
-      category: 'Cloned Apps',
-      URL:'https://github.com/KaushikKC/tesla-clone',
+      name: 'CoffeeShop Website',
+      category: 'FrontEnd Works',
+      URL:'https://github.com/KaushikKC/Web-Development-templates/tree/main/Coffee%20shop',
     },
     
   ];
