@@ -1,9 +1,12 @@
 import type { NextPage } from 'next'
+import { VideoHTMLAttributes } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
 import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
 import { useRouter } from 'next/router'
+import bg from '../Images/Image5.jpg'
+// import try from '../Images/try.mp4'
 
 import SideBar from '../components/SideBar'
 
@@ -23,12 +26,17 @@ const Home: NextPage = () => {
         
         <Header />
         <SideBar />
-        <video className="absolute top-0 h-full w-full object-cover -z-10 overflow-hidden" 
-        src="https://cdn.pixabay.com/vimeo/191745474/Full%20Moon%20-%206435.mp4?width=1920&expiry=1658730537&hash=075f77da28ea6a3c8e8809b1cb6ae8a195bd8984"
+        {/* <video className="absolute top-0 h-full w-full object-cover -z-10 overflow-hidden" 
+        src={try}
         autoPlay
         loop
         muted
-        ></video>
+        {'>'}   
+        </video> */}
+        <Image 
+        className="absolute top-0 h-full w-full object-cover -z-10 overflow-hidden" 
+        src={bg} 
+        layout='fill' />
         <div className="">
           <div className='absolute pl-16 md:pl-52 flex flex-col text-white top-60 text-ani'>
             <p className="font-bold text-lg md:text-xl small-text tracking-wide">Hello I'm</p>

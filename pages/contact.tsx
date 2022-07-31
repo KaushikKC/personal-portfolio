@@ -3,6 +3,8 @@ import Header from '../components/Header'
 import SideBar from '../components/SideBar'
 import {AiFillGithub, AiFillTwitterCircle, AiFillLinkedin, AiFillMail} from 'react-icons/ai'
 import styled from 'styled-components';
+import bg from '../Images/Image5.jpg'
+import Image from 'next/image';
 function contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -10,12 +12,19 @@ function contact() {
   return (
     <div>
         <Header />
-        <video className="fixed top-0 h-full w-full object-cover -z-10 overflow-hidden" 
+        {/* <video className="fixed top-0 h-full w-full object-cover -z-10 overflow-hidden" 
         src="https://cdn.pixabay.com/vimeo/191745474/Full%20Moon%20-%206435.mp4?width=1920&expiry=1658730537&hash=075f77da28ea6a3c8e8809b1cb6ae8a195bd8984"
         autoPlay
         loop
         muted
-        ></video>
+        ></video> */}
+        <div style={{position:"fixed"}} className='"fixed h-full w-full object-cover -z-10 overflow-hidden"'>
+          <Image
+          layout='fill'
+          objectFit='cover'
+          src={bg} 
+          />
+        </div>
           <div className="flex items-center justify-center fade-in">
             <div className='pb-5 overflow-y-auto body-wrapper'>
               <div className="flex flex-col w-full justify-center items-center">
