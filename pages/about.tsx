@@ -8,7 +8,6 @@ import {FaReact, FaHtml5, FaCss3Alt,FaNode, FaBootstrap} from "react-icons/fa"
 import {DiJavascript1} from "react-icons/di"
 import {SiExpress, SiNextdotjs, SiTailwindcss, SiMysql, SiMongodb, SiSolidity,SiWeb3Dotjs} from "react-icons/si"
 import Marquee from 'react-fast-marquee'
-// import bg from '../Images/Background.jpg'
 import bg from '../Images/Image5.jpg'
 
 
