@@ -8,7 +8,7 @@ import {FaReact, FaHtml5, FaCss3Alt,FaNode, FaBootstrap} from "react-icons/fa"
 import {DiJavascript1} from "react-icons/di"
 import {SiExpress, SiNextdotjs, SiTailwindcss, SiMysql, SiMongodb, SiSolidity,SiWeb3Dotjs} from "react-icons/si"
 import Marquee from 'react-fast-marquee'
-import bg from '../Images/Image5.jpg'
+// import bg from '../Images/Image5.jpg'
 
 
 function about() {
@@ -26,7 +26,7 @@ function about() {
           <Image
           layout='fill'
           objectFit='cover'
-          src={bg} 
+          src="https://images.unsplash.com/photo-1484950763426-56b5bf172dbb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" 
           />
         </div>
         <div className="flex items-center justify-center fade-in">

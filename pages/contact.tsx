@@ -3,7 +3,7 @@ import Header from '../components/Header'
 import SideBar from '../components/SideBar'
 import {AiFillGithub, AiFillTwitterCircle, AiFillLinkedin, AiFillMail} from 'react-icons/ai'
 import styled from 'styled-components';
-import bg from '../Images/Image5.jpg'
+// import bg from '../Images/Image5.jpg'
 import Image from 'next/image';
 function contact() {
   const [name, setName] = useState('');
@@ -22,7 +22,7 @@ function contact() {
           <Image
           layout='fill'
           objectFit='cover'
-          src={bg} 
+          src="https://images.unsplash.com/photo-1484950763426-56b5bf172dbb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" 
           />
         </div>
           <div className="flex items-center justify-center fade-in">
