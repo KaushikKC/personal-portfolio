@@ -73,7 +73,7 @@ function Skills() {
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-3'>
                     <div className='py-3'>
                         <Skill >
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-12 ml-5 w-12 text-blue-700 mx-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-10 ml-5 w-12 text-blue-700 mx-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
                             </svg>
                             <h1 className="text-white p-5  text-xl font-bold">Communication</h1>
@@ -150,5 +150,11 @@ const Skill = styled.div`
 
     &:hover::before {
         width: 300px;
+    }
+
+    @media only screen and (max-width: 600px){
+        &:hover::before {
+            width: 40%;
+        }
     }
 `
