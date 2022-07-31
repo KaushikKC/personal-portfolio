@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Header from '../components/Header'
 import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
 import { useRouter } from 'next/router'
-import bg from '../Images/Image5.jpg'
+// import bg from '../Images/Image5.jpg'
 import ReactPlayer from 'react-player'
 
 
@@ -28,15 +28,17 @@ const Home: NextPage = () => {
         <Header />
         <SideBar />
         {/* <ReactPlayer url={'} /> */}
-        <video className="absolute top-0 h-full w-full object-cover -z-10 overflow-hidden" 
+        {/* <video className="absolute top-0 h-full w-full object-cover -z-10 overflow-hidden" 
         src={"../Images/Video.mp4"}
     
         >  
-        </video>
-        {/* <Image 
-        className="absolute top-0 h-full w-full object-cover -z-10 overflow-hidden" 
-        src={bg} 
-        layout='fill' /> */}
+        </video> */}
+        
+          <img className="fixed object-cover h-full w-full"
+            src="https://images.unsplash.com/photo-1484950763426-56b5bf172dbb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+            alt='Background' 
+            />
+        
         <div className="">
           <div className='absolute pl-16 md:pl-52 flex flex-col text-white top-60 text-ani'>
             <p className="font-bold text-lg md:text-xl small-text tracking-wide">Hello I'm</p>

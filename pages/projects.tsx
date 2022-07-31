@@ -16,12 +16,11 @@ function projects() {
         loop
         muted
         ></video> */}
-        <div style={{position:"fixed"}} className='"fixed h-full w-full object-cover -z-10 overflow-hidden"'>
-          <Image
-          layout='fill'
-          objectFit='cover'
-          src="https://images.unsplash.com/photo-1484950763426-56b5bf172dbb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" 
-          />
+        <div style={{position:"fixed"}} className='"fixed h-96 w-full object-cover -z-10 overflow-hidden"'>
+          <img
+            src="https://images.unsplash.com/photo-1484950763426-56b5bf172dbb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+            alt='Background' 
+            />
         </div>
 
         {/* Project-Section */}

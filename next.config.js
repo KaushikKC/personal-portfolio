@@ -5,6 +5,7 @@ module.exports = {
   experimental: {
     images: {
       layoutRaw: true,
+      domains: ['images.unsplash.com'],
     },
   },
 }
