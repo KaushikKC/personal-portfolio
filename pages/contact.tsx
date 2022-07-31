@@ -20,7 +20,7 @@ function contact() {
         ></video> */}
         
         <img
-        className='fixed h-full overflow-hidden  w-full object-cover -z-10'
+          className="fixed h-full w-full object-cover -z-10 overflow-hidden"
           src="https://images.unsplash.com/photo-1484950763426-56b5bf172dbb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
           alt='Background' 
           />

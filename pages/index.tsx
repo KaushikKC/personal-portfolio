@@ -34,10 +34,11 @@ const Home: NextPage = () => {
         >  
         </video> */}
         
-          <img className="fixed object-cover h-full w-full"
-            src="https://images.unsplash.com/photo-1484950763426-56b5bf172dbb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-            alt='Background' 
-            />
+        <img
+          className="fixed h-full w-full object-cover -z-10 overflow-hidden"
+          src="https://images.unsplash.com/photo-1484950763426-56b5bf172dbb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          alt='Background' 
+          />
         
         <div className="">
           <div className='absolute pl-16 md:pl-52 flex flex-col text-white top-60 text-ani'>
