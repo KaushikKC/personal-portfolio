@@ -56,7 +56,7 @@ const Home: NextPage = () => {
             
             <div className="mt-5">
               <button onClick={() => router.push('/projects')} className="text-white hover:bg-yellow-300 hover:text-black font-semibold px-6 md:px-8 inline-block outline-none border-none py-2 md:py-3 bg-[hsla(0,0%,100%,.12)] rounded-lg mr-5" type='submit'>My Works</button>
-              <button onClick={() => router.push('/contact')} className="text-gray-900 hover:bg-[hsla(0,0%,100%,.12)] hover:text-white font-semibold px-6 md:px-8 inline-block outline-none border-none py-2 md:py-3 bg-yellow-300 rounded-lg" type='submit'>Contact Me</button>
+              <button onClick={() => router.push('/contact')} className="text-white hover:bg-yellow-300 hover:text-black font-semibold px-6 md:px-8 inline-block outline-none border-none py-2 md:py-3 bg-[hsla(0,0%,100%,.12)] rounded-lg" type='submit'>Contact Me</button>
             </div>
 
           </div>

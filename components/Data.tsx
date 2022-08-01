@@ -24,7 +24,7 @@ export const projectsData = [
       image: Project2,
       name: 'Drum Kit',
       category: 'FrontEnd Works',
-      URL:'',
+      URL:'https://github.com/KaushikKC/JavaScript_Projects/tree/main/Drum%20Kit%20Completed',
     },
     {
       id: '3',
@@ -45,7 +45,7 @@ export const projectsData = [
       image: Project5,
       name: 'Simon Game',
       category: 'FrontEnd Works',
-      URL:'',
+      URL:'https://github.com/KaushikKC/JavaScript_Projects/tree/main/Simon%20Game',
     },
     {
       id: '6',
@@ -59,7 +59,7 @@ export const projectsData = [
       image: Project7,
       name: 'TinDog',
       category: 'FrontEnd Works',
-      URL:'',
+      URL:'https://github.com/KaushikKC/JavaScript_Projects/tree/main/TinDog%20Completed%20Website',
     },
     {
       id: '8',

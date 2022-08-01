@@ -38,24 +38,26 @@ function contact() {
                 <div className='line'></div>
                 </div>
                 </div>
+                <h1 className="text-yellow-300 px-5 font-semibold text-lg">Feel Free to contact Me...</h1>
                 {/* left  */}
-                <Wrapper className=' flex flex-col md:flex-row gap-20 mt-20 justify-center md:justify-between relative'>
-                <div className="w-full max-w-[500px]">
-                  <div className='flex cursor-pointer bg-gray-900 p-5 items-center rounded-md mb-6'>
+                <Wrapper className=' flex flex-col md:flex-row gap-20 mt-10 justify-center md:justify-between relative'>
+                <div className="w-full max-w-[450px]">
+                  
+                  <div className='flex cursor-pointer bg-[hsla(0,0%,100%,.12)]  p-5 items-center rounded-md mb-6'>
                     <a className="text-white mr-4 text-lg p-2 bg-gray-600 rounded-full" href="https://www.linkedin.com/in/kaushik-k-36b871219/"><AiFillLinkedin/></a>
-                    <p className="text-white text-xl font-bold ">Linkedin</p>
+                    <a className="text-white text-xl font-bold " href="https://www.linkedin.com/in/kaushik-k-36b871219/">Linkedin</a>
                   </div>
-                  <div className='flex cursor-pointer bg-gray-900 p-5 items-center rounded-md mb-6'>
+                  <div className='flex cursor-pointer bg-[hsla(0,0%,100%,.12)] p-5 items-center rounded-md mb-6'>
                     <a className="text-white mr-4 text-lg p-2 bg-gray-600 rounded-full" href="https://twitter.com/Kaushikk1704"><AiFillTwitterCircle/></a>
-                    <p className="text-white text-xl font-bold ">Twitter</p>
+                    <a className="text-white text-xl font-bold " href="https://twitter.com/Kaushikk1704">Twitter</a>
                   </div>
-                  <div className='flex cursor-pointer bg-gray-900 p-5 items-center rounded-md mb-6'>
+                  <div className='flex cursor-pointer bg-[hsla(0,0%,100%,.12)]  p-5 items-center rounded-md mb-6'>
                     <a className="text-white mr-4 text-lg p-2 bg-gray-600 rounded-full" href="https://github.com/KaushikKC"><AiFillGithub/></a>
-                    <p className="text-white text-xl font-bold ">GitHub</p>
+                    <a className="text-white text-xl font-bold " href="https://github.com/KaushikKC">GitHub</a>
                   </div>
-                  <div className='flex cursor-pointer bg-gray-900 p-5 items-center rounded-md mb-6'>
+                  <div className='flex cursor-pointer bg-[hsla(0,0%,100%,.12)] p-5 items-center rounded-md mb-6'>
                     <a className="text-white mr-4 text-lg p-2 bg-gray-600 rounded-full" href="kccreations1704@gmail.com"><AiFillMail/></a>
-                    <p className="text-white text-xl font-bold ">Mail</p>
+                    <a className="text-white text-xl font-bold " href="kccreations1704@gmail.com">Mail</a>
                   </div>
                 </div>
                 {/* right  */}
@@ -87,7 +89,7 @@ function contact() {
 export default contact
 
 const Wrapper = styled.div`
-  &::after {
+  /* &::after {
     position: absolute;
     content: '';
     width: 2px;
@@ -96,5 +98,5 @@ const Wrapper = styled.div`
     left: 50%;
     top: 30%;
     transform: translate(-50%, -50%);
-  }
+  } */
 `

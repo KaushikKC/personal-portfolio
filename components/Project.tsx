@@ -11,7 +11,7 @@ function Project() {
     const [item, setItems] = useState({ name: 'all' });
     const [projects, setProjects] = useState([] as any);
     const [active, setActive] = useState(0);
-    console.log(projects)
+
 
     useEffect(() => {
         if (item.name === 'all') {
@@ -34,9 +34,7 @@ function Project() {
         setItems({ name: e.target.textContent.toLowerCase() });
         setActive(index);
       };
-      
-    console.log(item)
-    console.log(active)
+    
 
   return (
     <div>
