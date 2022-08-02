@@ -3,9 +3,5 @@ module.exports = {
   
   reactStrictMode: true,
   experimental: {
-    images: {
-      layoutRaw: true,
-      domains: ['images.unsplash.com'],
-    },
   },
 }

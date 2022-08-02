@@ -16,10 +16,10 @@ function Header() {
             <Image objectFit='contain' src={logo} layout="fill" />
           </div>
           <div className='hidden justify-center text-white items-center w-full md:inline-flex font-bold'>
-            <button onClick={() => router.push('/')} className="transition hover:-translate-y-1 hover:text-teal-300 mx-4 p-2 lg:mx-8" >Home</button>
-            <button onClick={() => router.push('/about')} className=" transition hover:-translate-y-1 hover:text-teal-300 mx-4 p-2 lg:mx-8" >About</button>
-            <button onClick={() => router.push('/projects')} className="transition hover:-translate-y-1  hover:text-teal-300 mx-4 p-2 lg:mx-8">Projects</button>
-            <button onClick={() => router.push('/contact')} className="transition hover:-translate-y-1  hover:text-teal-300 mx-4 p-2 lg:mx-8">Contact</button>
+            <button onClick={() => router.push('/')} className="transition hover:-translate-y-1 hover:text-teal-300 mx-4 p-2 lg:mx-8" >HOME</button>
+            <button onClick={() => router.push('/about')} className=" transition hover:-translate-y-1 hover:text-teal-300 mx-4 p-2 lg:mx-8" >ABOUT</button>
+            <button onClick={() => router.push('/projects')} className="transition hover:-translate-y-1  hover:text-teal-300 mx-4 p-2 lg:mx-8">PROJECTS</button>
+            <button onClick={() => router.push('/contact')} className="transition hover:-translate-y-1  hover:text-teal-300 mx-4 p-2 lg:mx-8">CONTACT</button>
             
           </div>
           <div className="mr-10 flex md:hidden ">
