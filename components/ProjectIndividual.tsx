@@ -4,13 +4,21 @@ import styled from 'styled-components'
 
 function ProjectIndividual({item}:any) {
 
+    const openTab = item => {
+        window.open(item.Demo)
+    }
+
   return (
     <div key={item.id} className='flex flex-col items-center text-center cont'>
       <Cont className='mb-8 h-60'>
         <Image 
         className='rounded-2xl cursor-pointer h-32 absolute hover:opacity-50' 
         src={item.image} alt='' />
-        <a href={item.URL} className='cursor-pointer'>github</a>
+        <div className="flex items-center justify-center">
+            {item.data !== '' && <button onClick={() => openTab(item)}>Live Demo</button>}
+            <a href={item.URL} className='cursor-pointer'>github</a>
+        </div>
+        
       </Cont>
       <p className='capitalize text-yellow-300 text-sm mb-3 font-semibold'>{item.category}</p>
       <h3 className='text-2xl text-white font-semibold capitalize mb-3'>{item.name}</h3>
@@ -41,7 +49,7 @@ const Cont = styled.div`
     transition: all 0.35s ease;
 
 
-    & a {
+    & a,button {
         background-color: #000000;
         border: 2px solid #fff;
         color: #fff;
@@ -86,7 +94,18 @@ const Cont = styled.div`
     }
 
     & a {
-        top: 50%;
+        top: 30%;
+        left: 50%;
+        position: absolute;
+        z-index: 2;
+        -webkit-transform: translate(-50%, -50%) scale(0.5);
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0;
+        -webkit-box-shadow: 0 0 10px #000000;
+        box-shadow: 0 0 10px #000000;
+    }
+    & button {
+        top: 65%;
         left: 50%;
         position: absolute;
         z-index: 2;
@@ -112,6 +131,12 @@ const Cont = styled.div`
     }
 
     &:hover a {
+        -webkit-transform: translate(-50%, -50%) scale(1);
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+    &:hover button {
         -webkit-transform: translate(-50%, -50%) scale(1);
         transform: translate(-50%, -50%) scale(1);
         opacity: 1;
