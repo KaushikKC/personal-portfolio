@@ -15,7 +15,7 @@ function Header() {
           <div className="text-white cursor-pointer relative h-16 w-full items-center justify-center md:w-20">
             <Image objectFit='contain' src={logo} layout="fill" />
           </div>
-          <div className='hidden justify-center text-white items-center w-full md:inline-flex font-bold'>
+          <div className='hidden justify-center text-white items-center w-full md:inline-flex font-semibold text-base'>
             <button onClick={() => router.push('/')} className="transition hover:-translate-y-1 hover:text-teal-300 mx-4 p-2 lg:mx-8" >HOME</button>
             <button onClick={() => router.push('/about')} className=" transition hover:-translate-y-1 hover:text-teal-300 mx-4 p-2 lg:mx-8" >ABOUT</button>
             <button onClick={() => router.push('/projects')} className="transition hover:-translate-y-1  hover:text-teal-300 mx-4 p-2 lg:mx-8">PROJECTS</button>

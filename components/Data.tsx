@@ -17,7 +17,8 @@ export const projectsData = [
       image: Project1,
       name: 'Netflix Clone',
       category: 'Cloned Apps',
-      URL:'https://github.com/KaushikKC/netflix-clone'
+      URL:'https://github.com/KaushikKC/netflix-clone',
+      Demo: 'https://netflix-clone-peach-beta.vercel.app/'
     },
     {
       id: '2',
@@ -25,6 +26,7 @@ export const projectsData = [
       name: 'Drum Kit',
       category: 'FrontEnd Works',
       URL:'https://github.com/KaushikKC/JavaScript_Projects/tree/main/Drum%20Kit%20Completed',
+      Demo: ''
     },
     {
       id: '3',
@@ -32,6 +34,7 @@ export const projectsData = [
       name: 'Web3 Chating App',
       category: 'Web3 Works',
       URL:'https://github.com/KaushikKC/Metaverse-Apps/tree/main/metaverse-project1',
+      Demo: 'https://metaverse-apps.vercel.app/'
     },
     {
       id: '4',
@@ -39,6 +42,7 @@ export const projectsData = [
       name: 'Instagram Clone',
       category: 'Cloned Apps',
       URL:'https://github.com/KaushikKC/Instagram-clone',
+      Demo: 'https://c9q7m2.csb.app/'
     },
     {
       id: '5',
@@ -46,6 +50,7 @@ export const projectsData = [
       name: 'Simon Game',
       category: 'FrontEnd Works',
       URL:'https://github.com/KaushikKC/JavaScript_Projects/tree/main/Simon%20Game',
+      Demo: ''
     },
     {
       id: '6',
@@ -53,6 +58,7 @@ export const projectsData = [
       name: 'WhatsApp Clone',
       category: 'Cloned Apps',
       URL:'https://github.com/KaushikKC/whatsapp-clone',
+      Demo: ''
     },
     {
       id: '7',
@@ -60,6 +66,7 @@ export const projectsData = [
       name: 'TinDog',
       category: 'FrontEnd Works',
       URL:'https://github.com/KaushikKC/JavaScript_Projects/tree/main/TinDog%20Completed%20Website',
+      Demo: ''
     },
     {
       id: '8',
@@ -67,6 +74,7 @@ export const projectsData = [
       name: 'DisneyPlusHotstar Clone',
       category: 'Cloned Apps',
       URL:'https://github.com/KaushikKC/Disney-Plus-Hotstar-Clone',
+      Demo: ''
     },
     {
       id: '9',
@@ -74,6 +82,7 @@ export const projectsData = [
       name: 'Tesla Clone',
       category: 'Cloned Apps',
       URL:'https://github.com/KaushikKC/tesla-clone',
+      Demo: ''
     },
     {
       id: '10',
@@ -81,6 +90,7 @@ export const projectsData = [
       name: 'Amazon Clone',
       category: 'Cloned Apps',
       URL:'https://github.com/KaushikKC/Web-Development-templates/tree/main/Amazon%20Clone',
+      Demo: ''
     },
     {
       id: '11',
@@ -88,6 +98,7 @@ export const projectsData = [
       name: 'CoffeeShop Website',
       category: 'FrontEnd Works',
       URL:'https://github.com/KaushikKC/Web-Development-templates/tree/main/Coffee%20shop',
+      Demo: ''
     },
     
   ];

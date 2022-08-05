@@ -15,7 +15,7 @@ function ProjectIndividual({item}:any) {
         className='rounded-2xl cursor-pointer h-32 absolute hover:opacity-50' 
         src={item.image} alt='' />
         <div className="flex items-center justify-center">
-            {item.data !== '' && <button onClick={() => openTab(item)}>Live Demo</button>}
+            {/* {item.data !== '' && <button onClick={() => openTab(item)}>Live Demo</button>} */}
             <a href={item.URL} className='cursor-pointer'>github</a>
         </div>
         
@@ -94,7 +94,7 @@ const Cont = styled.div`
     }
 
     & a {
-        top: 30%;
+        top: 50%;
         left: 50%;
         position: absolute;
         z-index: 2;
