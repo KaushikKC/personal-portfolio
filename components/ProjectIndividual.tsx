@@ -4,9 +4,9 @@ import styled from 'styled-components'
 
 function ProjectIndividual({item}:any) {
 
-    const openTab = item => {
-        window.open(item.Demo)
-    }
+    // const openTab = item => {
+    //     window.open(item.Demo)
+    // }
 
   return (
     <div key={item.id} className='flex flex-col items-center text-center cont'>
