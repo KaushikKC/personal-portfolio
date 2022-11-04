@@ -9,6 +9,7 @@ import Project8 from '../Images/DisneyPlusHotstar.webp'
 import Project9 from '../Images/Tesla.jpg'
 import Project10 from '../Images/Amazon.jpg'
 import Project11 from '../Images/CoffeeShop.webp'
+import Project12 from '../Images/Ebay.png'
 
 
 export const projectsData = [
@@ -63,38 +64,46 @@ export const projectsData = [
     {
       id: '7',
       image: Project7,
+      name: 'EBay Web-3 Clone',
+      category: 'Web3 Works',
+      URL:'https://github.com/KaushikKC/Ebay-Clone',
+      Demo: ''
+    },
+    {
+      id: '8',
+      image: Project8,
       name: 'TinDog',
       category: 'FrontEnd Works',
       URL:'https://github.com/KaushikKC/JavaScript_Projects/tree/main/TinDog%20Completed%20Website',
       Demo: ''
     },
     {
-      id: '8',
-      image: Project8,
+      id: '9',
+      image: Project9,
       name: 'DisneyPlusHotstar Clone',
       category: 'Cloned Apps',
       URL:'https://github.com/KaushikKC/Disney-Plus-Hotstar-Clone',
       Demo: ''
     },
     {
-      id: '9',
-      image: Project9,
+      id: '10',
+      image: Project10,
       name: 'Tesla Clone',
       category: 'Cloned Apps',
       URL:'https://github.com/KaushikKC/tesla-clone',
       Demo: ''
     },
     {
-      id: '10',
-      image: Project10,
+      id: '11',
+      image: Project11,
       name: 'Amazon Clone',
       category: 'Cloned Apps',
       URL:'https://github.com/KaushikKC/Web-Development-templates/tree/main/Amazon%20Clone',
       Demo: ''
     },
     {
-      id: '11',
-      image: Project11,
+      id: '12',
+      image: Project12,
       name: 'CoffeeShop Website',
       category: 'FrontEnd Works',
       URL:'https://github.com/KaushikKC/Web-Development-templates/tree/main/Coffee%20shop',
