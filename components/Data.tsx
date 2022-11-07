@@ -63,7 +63,7 @@ export const projectsData = [
     },
     {
       id: '7',
-      image: Project7,
+      image: Project12,
       name: 'EBay Web-3 Clone',
       category: 'Web3 Works',
       URL:'https://github.com/KaushikKC/Ebay-Clone',
@@ -71,7 +71,7 @@ export const projectsData = [
     },
     {
       id: '8',
-      image: Project8,
+      image: Project7,
       name: 'TinDog',
       category: 'FrontEnd Works',
       URL:'https://github.com/KaushikKC/JavaScript_Projects/tree/main/TinDog%20Completed%20Website',
@@ -79,7 +79,7 @@ export const projectsData = [
     },
     {
       id: '9',
-      image: Project9,
+      image: Project8,
       name: 'DisneyPlusHotstar Clone',
       category: 'Cloned Apps',
       URL:'https://github.com/KaushikKC/Disney-Plus-Hotstar-Clone',
@@ -87,7 +87,7 @@ export const projectsData = [
     },
     {
       id: '10',
-      image: Project10,
+      image: Project9,
       name: 'Tesla Clone',
       category: 'Cloned Apps',
       URL:'https://github.com/KaushikKC/tesla-clone',
@@ -95,7 +95,7 @@ export const projectsData = [
     },
     {
       id: '11',
-      image: Project11,
+      image: Project10,
       name: 'Amazon Clone',
       category: 'Cloned Apps',
       URL:'https://github.com/KaushikKC/Web-Development-templates/tree/main/Amazon%20Clone',
@@ -103,7 +103,7 @@ export const projectsData = [
     },
     {
       id: '12',
-      image: Project12,
+      image: Project11,
       name: 'CoffeeShop Website',
       category: 'FrontEnd Works',
       URL:'https://github.com/KaushikKC/Web-Development-templates/tree/main/Coffee%20shop',
