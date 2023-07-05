@@ -47,7 +47,7 @@ function about() {
               <div className="h-full w-full md:w-[65%]">
                   <h1 className="font-bold text-yellow-300 text-3xl mb-3">Web Developer</h1>
                   <p className="leading-loose text-white text-lg font pr-3">
-                    Hello, I'm Kaushik, 17 years old guy and a Web Developer from India. I used to create lot of works that gives more value to people. I'm having good knowledge of full stack development and I also done many projects in that. I came into this tech stack in 2020. I'm interested to collaborate with other developers to make a valueable projects and to grow my networks around the developers. If you're not a developer you could also contact me to make your work done.  
+                    Hello, I'm Kaushik, 18 years old guy and a Web Developer from India. I used to create lot of works that gives more value to people. I'm having good knowledge of full stack development and I also done many projects in that. I came into this tech stack in 2020. I'm interested to collaborate with other developers to make a valueable projects and to grow my networks around the developers. If you're not a developer you could also contact me to make your work done.  
                     </p>
               </div>
             </div>

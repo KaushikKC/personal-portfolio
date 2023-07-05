@@ -1,10 +1,9 @@
 import Project1 from '../Images/Netflix.jpg'
-import Project2 from '../Images/DrumKid.jpg'
+import Project2 from '../Images/SpaceBlock.jpg'
 import Project3 from '../Images/Metaverse.png'
 import Project4 from '../Images/Instagram.jpg'
-import Project5 from '../Images/Simon.jpg'
+import Project5 from '../Images/Aible.jpg'
 import Project6 from '../Images/WhatsApp.jpg'
-import Project7 from '../Images/TinDog.jpg'
 import Project8 from '../Images/DisneyPlusHotstar.webp'
 import Project9 from '../Images/Tesla.jpg'
 import Project10 from '../Images/Amazon.jpg'
@@ -24,9 +23,9 @@ export const projectsData = [
     {
       id: '2',
       image: Project2,
-      name: 'Drum Kit',
-      category: 'FrontEnd Works',
-      URL:'https://github.com/KaushikKC/JavaScript_Projects/tree/main/Drum%20Kit%20Completed',
+      name: 'SpaceBlock',
+      category: 'Web3 Works',
+      URL:'https://github.com/KaushikKC/SpaceBlock',
       Demo: ''
     },
     {
@@ -48,9 +47,9 @@ export const projectsData = [
     {
       id: '5',
       image: Project5,
-      name: 'Simon Game',
-      category: 'FrontEnd Works',
-      URL:'https://github.com/KaushikKC/JavaScript_Projects/tree/main/Simon%20Game',
+      name: 'Aible',
+      category: 'Artificial Intelligence',
+      URL:'https://github.com/KaushikKC/AIable',
       Demo: ''
     },
     {
@@ -69,24 +68,17 @@ export const projectsData = [
       URL:'https://github.com/KaushikKC/Ebay-Clone',
       Demo: ''
     },
+    
     {
       id: '8',
-      image: Project7,
-      name: 'TinDog',
-      category: 'FrontEnd Works',
-      URL:'https://github.com/KaushikKC/JavaScript_Projects/tree/main/TinDog%20Completed%20Website',
-      Demo: ''
-    },
-    {
-      id: '9',
       image: Project8,
-      name: 'DisneyPlusHotstar Clone',
+      name: 'Disney Plus Hotstar Clone',
       category: 'Cloned Apps',
       URL:'https://github.com/KaushikKC/Disney-Plus-Hotstar-Clone',
       Demo: ''
     },
     {
-      id: '10',
+      id: '9',
       image: Project9,
       name: 'Tesla Clone',
       category: 'Cloned Apps',
@@ -94,7 +86,7 @@ export const projectsData = [
       Demo: ''
     },
     {
-      id: '11',
+      id: '10',
       image: Project10,
       name: 'Amazon Clone',
       category: 'Cloned Apps',
@@ -102,7 +94,7 @@ export const projectsData = [
       Demo: ''
     },
     {
-      id: '12',
+      id: '11',
       image: Project11,
       name: 'CoffeeShop Website',
       category: 'FrontEnd Works',
@@ -122,6 +114,9 @@ export const projectsData = [
     },
     {
       name: 'FrontEnd Works',
+    },
+    {
+      name: 'Artificial Intelligence'
     },
     {
       name: 'Web3 Works',
