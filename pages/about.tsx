@@ -47,7 +47,7 @@ function about() {
               <div className="h-full w-full md:w-[65%]">
                   <h1 className="font-bold text-yellow-300 text-3xl mb-3">Web Developer</h1>
                   <p className="leading-loose text-white text-lg font pr-3">
-                    Hello, I'm Kaushik, 18 years old guy and a Web Developer from India. I used to create lot of works that gives more value to people. I'm having good knowledge of full stack development and I also done many projects in that. I came into this tech stack in 2020. I'm interested to collaborate with other developers to make a valueable projects and to grow my networks around the developers. If you're not a developer you could also contact me to make your work done.  
+                    Hello, I'm Kaushik and I'm an ambitious 18-year-old Web Developer hailing from India. Ever since I delved into the world of technology, I have been driven by a passion for creating impactful projects that bring value to people's lives. I embarked on my journey as a developer in 2020, and since then, I have acquired a comprehensive understanding of full stack development.Throughout my journey, I have successfully completed numerous projects that have honed my skills and enriched my knowledge. I take great pride in my ability to conceptualize, design, and implement projects that not only meet the needs of my clients but also exceed their expectations.<br></br> <br></br> Thank you for visiting my About page. If you're interested in working together or simply want to connect, please feel free to reach out. Let's create something amazing together! 
                     </p>
               </div>
             </div>
