@@ -51,7 +51,7 @@ const Home: NextPage = () => {
             <span className='flex font-bold text-lg md:text-xl'>
               <p className='pr-3'>A</p>
               <span>{text}</span>
-              <p className="ml-3 text-teal-400 tracking-widest ">Web Developer</p>
+              <p className="ml-3 text-teal-400 tracking-widest ">Developer</p>
             </span>
             
             <div className="mt-5">
